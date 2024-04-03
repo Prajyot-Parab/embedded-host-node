@@ -248,6 +248,7 @@ async function downloadRelease(options: {
   console.log(`Downloading ${options.repo} release asset.`);
   const response = await fetch(options.assetUrl, {
     redirect: 'follow',
+    timeout: 0,
   });
   if (!response.ok) {
     throw Error(
