@@ -1,0 +1,20 @@
+{
+  "name": "sass-embedded-linux-ppc64",
+  "version": "1.54.9",
+  "description": "The linux-ppc64 binary for sass-embedded",
+  "repository": "sass/embedded-host-node",
+  "author": "Google Inc.",
+  "license": "MIT",
+  "files": [
+    "dart-sass-embedded/**/*"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "ppc64"
+  ]
+}
